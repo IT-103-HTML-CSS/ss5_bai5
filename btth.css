@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clinic-header {
+    background-color:#0284C7 ;
+    color: white;
+    text-align: center;
+}
+
+#clinic-header > h1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+body {
+    background-color: #F0F9FF;
+    color: #0f172a;
+}
+h2 {
+    text-transform: capitalize;
+    color:#0369A1 ;
+}
+h2 + p {
+color: #334155;
+line-height: 1.4; 
+}
+
+
+.philosophy em{
+    color: #0EA5E9;
+}
+.services li {
+    list-style: none;
+    padding-left: 0;
+} 
+.services li::before {
+    content: '🦷';
+} 
+.warning {
+    font-style: italic;
+    color: #B91C1C;
+}
+
+.contact a{
+    font-weight: bold;
+    color: #0c83cd;
+}
+.contact a:hover {
+    color: #0C4A6E;
+}
+
+footer {
+    background-color:#0284C7 ;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 32px ;
+
+}
+
+
